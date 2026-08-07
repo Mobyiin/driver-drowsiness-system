@@ -84,7 +84,7 @@ To ensure robust generalization and prevent overfitting, the dataset was split i
 
 - **Source:** Roboflow Universe`
 - **Format:** YOLOv8 PyTorch format
-- 🔗 **Roboflow Dataset Link:** [Driver Drowsiness System Dataset](https://universe.roboflow.com/mobin-yaghooti/driver-drowsiness-system)
+- **Roboflow Dataset Link:** [Driver Drowsiness System Dataset](https://universe.roboflow.com/mobin-yaghooti/driver-drowsiness-system)
 
 ### 2. Training Configuration (Google Colab T4 GPU)
 The model was fine-tuned on Google Colab using a Tesla T4 GPU instance:
@@ -166,7 +166,7 @@ All operational metrics can be customized in `config.py`:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/mobyiin/driver-drowsiness-system.git](https://github.com/mobyiin/driver-drowsiness-system.git)
+   git clone https://github.com/mobyiin/driver-drowsiness-system.git
    cd driver-drowsiness-system
    ```
 
