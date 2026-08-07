@@ -10,8 +10,6 @@ A fully integrated real-time driver monitoring system powered by advanced comput
 
 ---
 
----
-
 ## Screenshots & Demo
 
 ### Live Detection & UI Overlay
