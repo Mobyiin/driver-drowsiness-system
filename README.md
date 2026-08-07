@@ -52,7 +52,7 @@ driver-drowsiness-system/
 │
 ├── trains/                  # Colab training workflow
 │   │          
-│   └── yolo_drowsiness_training.ipynb
+│   └── train_drowsy_detection_model.ipynb
 │
 ├── src/                     # Core system modules
 │   │               
