@@ -12,7 +12,7 @@ An end-to-end, real-time computer vision system engineered to monitor driver att
 
 ---
 
-## 📸 Screenshots & Demo
+## Screenshots & Demo
 
 ### Live Detection & UI Overlay
 
