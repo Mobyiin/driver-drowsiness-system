@@ -118,11 +118,14 @@ To prevent false alarms caused by normal eye blinks, a time-persistence gate eva
 
 $$\text{drowsy\_duration} = t_{\text{current}} - t_{\text{start\_drowsy}}$$
 
-- If $\text{drowsy\_duration} < 5.0\text{s}$, the system flags a Warning state on the UI without playing sound.  
-- If $\text{drowsy\_duration} \ge 5.0\text{s}$, an alert is triggered, audio begins looping, and an alert record is sent to the Fatigue Analyzer.  
-- Opening eyes immediately resets duration timers and stops the short-term alert audio.  
+If $\text{drowsy\_duration} < 5.0\text{s}$, the system flags a Warning state on the UI without playing sound.  
+
+If $\text{drowsy\_duration} \ge 5.0\text{s}$, an alert is triggered, audio begins looping, and an alert record is sent to the Fatigue Analyzer.  
+
+Opening eyes immediately resets duration timers and stops the short-term alert audio.  
 
 #### 3. Sliding Window Fatigue Algorithm (`src/fatigue_analyzer.py`)
+
 Driver fatigue is cumulative. The system maintains a time-stamped history queue of all triggered alerts and evaluates fatigue over a moving window:  
 
 $$\text{Queue}_{\text{active}} = \{ t \in \text{alert\_timestamps} \mid (t_{\text{current}} - t) \le \text{FATIGUE\_WINDOW\_SEC} \}$$
