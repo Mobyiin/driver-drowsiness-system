@@ -26,7 +26,6 @@ A fully integrated real-time driver monitoring system powered by advanced comput
   - **Stage 1 (Micro-sleep Alert):** Triggers a continuous warning audio loop if eye closure persists for $\ge 5.0$ seconds. Audio stops **instantly** the moment the driver opens their eyes.
   - **Stage 2 (Chronic Fatigue Break Warning):** Tracks repeated drowsiness episodes across time. If 4 or more drowsiness events occur within a 2-minute window, the system escalates to an emergency "Take a Break" critical warning.
 - **Non-Blocking Multi-Threaded Audio Engine:** Custom audio manager utilizing `pygame.mixer` independent channels, eliminating video lag and frame freezes during sound playback.
-- **Dynamic HUD & UI Overlay:** Modern, semi-transparent background cards displaying live state, exact closure duration, and alert status directly on the OpenCV feed.
 - **Robust Application Lifecycle:** Full cleanup of hardware resources (webcam and audio channels) with graceful handling of OS window close events (X button) and exit shortcuts (`q`).
 
 ---
