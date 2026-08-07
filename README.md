@@ -6,7 +6,7 @@
 [![Pygame](https://img.shields.io/badge/Pygame--CE-2.5.0-red.svg)](https://pyga.me)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An end-to-end, real-time computer vision system engineered to monitor driver attentiveness, track micro-sleep events, and evaluate overall physical fatigue. Powered by a custom-trained **YOLOv8** object detection model and an adaptive **Sliding Window Fatigue Queue**, this application provides non-intrusive driver monitoring with instant, multi-channel audio warnings.
+A fully integrated real-time driver monitoring system powered by advanced computer vision techniques. The system utilizes a fine-tuned YOLOv8 object detection model combined with an adaptive temporal fatigue analysis pipeline (Sliding Window Fatigue Queue) to accurately track attentiveness, identify micro-sleep events, and evaluate fatigue trends. It operates in a non-intrusive manner while providing low-latency, multi-channel auditory feedback for critical safety intervention.
 
 ---
 
