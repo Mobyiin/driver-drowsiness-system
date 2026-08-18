@@ -15,3 +15,4 @@ class FatigueAnalyzer:
         self.alert_timestamps = [t for t in self.alert_timestamps if current_time - t <= config.FATIGUE_WINDOW_SEC]
 
         return len(self.alert_timestamps) >= config.FATIGUE_ALERT_LIMIT
+    

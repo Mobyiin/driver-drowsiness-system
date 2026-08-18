@@ -19,5 +19,6 @@ FATIGUE_WINDOW_SEC = 120
 FATIGUE_ALERT_LIMIT = 4
 
 # Camera Configuration
-CAMERA_INDEX = 0             
+CAMERA_INDEX = 0            
+IDLE_CAMERA_FPS = 5.0
 WINDOW_NAME = "Driver Drowsiness System"
